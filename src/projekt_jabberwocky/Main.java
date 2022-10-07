@@ -9,7 +9,7 @@ public class Main {
 		// Datei Objekt erstellen (Ella)
 		File datei = new File("Text.txt");
 
-		// Text aus datei auslesen
+		// Text aus datei auslesen (Ella)
 		Scanner scan = null;
 		try {
 			scan = new Scanner(datei);
