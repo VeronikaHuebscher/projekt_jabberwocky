@@ -20,9 +20,11 @@ public class FileReader {
 	} catch (FileNotFoundException e) {
 		System.out.println("File Not Found");
 	}
+	
+	// While Schleife damit der ganze Text ausgegeben wird
 	while(scan.hasNext()) {
 	System.out.println(scan.nextLine());
-	}
+		}
 	}
 
 }
