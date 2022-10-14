@@ -4,8 +4,12 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class FileReader {
+public class Gedicht {
 
+	public Gedicht() {
+		
+	}
+	
 	public static void main(String[] args) {
 		
 	File datei = new File("Gedicht.txt");
@@ -24,7 +28,12 @@ public class FileReader {
 	// While Schleife damit der ganze Text ausgegeben wird
 	while(scan.hasNext()) {
 	System.out.println(scan.nextLine());
+	
+	
+	
 		}
 	}
+	
+	
 
 }
