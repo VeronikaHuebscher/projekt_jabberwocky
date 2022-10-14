@@ -7,7 +7,7 @@ public class Main {
 	//private Model model;
 	
 		// 1.0.0.2 eine Methode um auf das Gedicht zuzugreifen
-		ArrayList<>
+		//ArrayList<>
 		
 		
 		

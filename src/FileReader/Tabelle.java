@@ -8,7 +8,7 @@ public class Tabelle {
 		
 		
 	//Methode um die Zeichen in Arraylist einzufügen
-	zweiZeichen.add();
+	//zweiZeichen.add();
 		
 	
 
@@ -22,4 +22,5 @@ public static void main(String[] args) {
 	
 	
 
+}
 }
