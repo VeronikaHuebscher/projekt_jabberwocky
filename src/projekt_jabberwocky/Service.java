@@ -14,6 +14,8 @@ public class Service {
 	private TextAnalyser analyser = new TextAnalyser();
 	
 	
+	
+	
 	/**
 	 * Nutze diese Klasse für Aufrufe zu Klassen, welche die Detailarbeiten machen.
 	 * Vermeide detailierte Implementierungen hier, bewahre Übersicht
