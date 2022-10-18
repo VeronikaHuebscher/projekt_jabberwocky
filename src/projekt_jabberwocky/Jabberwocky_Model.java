@@ -1,5 +1,5 @@
 package projekt_jabberwocky;
 
-public class Model {
+public class Jabberwocky_Model {
 
 }
