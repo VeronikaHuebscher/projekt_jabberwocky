@@ -12,10 +12,10 @@ public class Jabberwocky extends Application {
 	private Jabberwocky_Model model;
 
 	@Override
-	public void start(Stage primaryStage) throws Exception {
+	public void start(Stage stage) throws Exception {
 		//Objekte anlegen (Ella)
 		model = new Jabberwocky_Model();
-		view = new Jabberwocky_View(primaryStage, model);
+		view = new Jabberwocky_View(stage, model);
 		controller = new Jabberwocky_Controller(model, view);
 		view.start();
 	}

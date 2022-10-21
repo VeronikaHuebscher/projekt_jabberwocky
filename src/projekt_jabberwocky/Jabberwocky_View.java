@@ -1,25 +1,38 @@
 package projekt_jabberwocky;
+import javafx.scene.Scene;
+import javafx.scene.control.Slider;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 import java.awt.*;
 
 public class Jabberwocky_View {
 	//Design Variablen anlegen (Ella)
-	protected Stage stage;
-	protected Jabberwocky_Model model;
+	private Stage stage;
+	private Jabberwocky_Model model;
 
-	protected MenuBar = new MenuBar;
-	protected Button = new Button;
-
-
-
-
-	public Jabberwocky_View(Stage primaryStage,Jabberwocky_Model model){
-		this.stage = primaryStage;
+	public Jabberwocky_View(Stage stage, Jabberwocky_Model model) { //Exception
+		this.stage = stage;
 		this.model = model;
 
-	}
+		stage.setTitle("Jabberwocky Programm");
+		Button button = new Button();
+		Slider slider = new Slider(0,7,0);
+		slider.isShowTickLabels();
+		FileChooser fileCooser = new FileChooser();
 
-	public void start() {
+		button.setLabel("Gedicht erstellen");
+		BorderPane root = new BorderPane();
+		HBox hBox = new HBox();
+
+
+		Scene scene = new Scene(root);
+		stage.setScene(scene);
+
+	}
+	public void start(){
+		stage.show();
 	}
 }
