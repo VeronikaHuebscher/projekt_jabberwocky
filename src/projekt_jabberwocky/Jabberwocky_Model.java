@@ -1,6 +1,6 @@
 package projekt_jabberwocky;
 
-public class Model {
+public class Jabberwocky_Model {
 	private Service service = new Service();
 	
 	public void myMethod() {
