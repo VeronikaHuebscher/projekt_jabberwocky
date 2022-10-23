@@ -1,9 +1,10 @@
 package projekt_jabberwocky;
+
 import javafx.application.Application;
 import javafx.stage.Stage;
 
-import java.io.FileNotFoundException;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Jabberwocky extends Application {

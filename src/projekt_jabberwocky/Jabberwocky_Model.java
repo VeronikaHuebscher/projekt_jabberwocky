@@ -7,8 +7,9 @@ public class Jabberwocky_Model {
 		service.execute();
 	}
 	
+	//Um die Klasse zu testen, kann entfernt werden
 	public static void main (String[] args) {
-		Model model = new Model();
+		Jabberwocky_Model model = new Jabberwocky_Model();
 		model.myMethod();
 	}
 

@@ -35,4 +35,5 @@ public class Jabberwocky_View {
 	public void start(){
 		stage.show();
 	}
+
 }

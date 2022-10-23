@@ -1,6 +1,8 @@
 package projekt_jabberwocky;
 
-import FileReader.TextReader;
+import fileReader.TextReader;
+
+import java.util.Map;
 
 
 /**
@@ -27,7 +29,7 @@ public class Service {
 		String content = reader.readContent();
 		
 		
-		char nextChar = analyser.nextChar(content, pattern);
+		Map<String, Map<String, Integer>> nextChar = analyser.nextChar(content);
 		
 		
 		int numberOfPattern = analyser.analyse(content, pattern);
