@@ -1,4 +1,4 @@
-package projekt_jabberwocky;
+package projektjabberwocky;
 import javafx.scene.Scene;
 import javafx.scene.control.Slider;
 import javafx.scene.layout.BorderPane;
@@ -8,12 +8,12 @@ import javafx.stage.Stage;
 
 import java.awt.*;
 
-public class Jabberwocky_View {
+public class JabberwockyView {
 	//Design Variablen anlegen (Ella)
 	private Stage stage;
-	private Jabberwocky_Model model;
+	private JabberwockyModel model;
 
-	public Jabberwocky_View(Stage stage, Jabberwocky_Model model) { //Exception
+	public JabberwockyView(Stage stage, JabberwockyModel model) { //Exception
 		this.stage = stage;
 		this.model = model;
 

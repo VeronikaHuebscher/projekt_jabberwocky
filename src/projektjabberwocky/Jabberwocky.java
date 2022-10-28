@@ -1,4 +1,4 @@
-package projekt_jabberwocky;
+package projektjabberwocky;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -8,16 +8,16 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Jabberwocky extends Application {
-	private Jabberwocky_View view;
-	private Jabberwocky_Controller controller;
-	private Jabberwocky_Model model;
+	private JabberwockyView view;
+	private JabberwockyController controller;
+	private JabberwockyModel model;
 
 	@Override
 	public void start(Stage stage) throws Exception {
 		//Objekte anlegen (Ella)
-		model = new Jabberwocky_Model();
-		view = new Jabberwocky_View(stage, model);
-		controller = new Jabberwocky_Controller(model, view);
+		model = new JabberwockyModel();
+		view = new JabberwockyView(stage, model);
+		controller = new JabberwockyController(model, view);
 		view.start();
 	}
 

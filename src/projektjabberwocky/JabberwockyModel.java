@@ -1,6 +1,6 @@
-package projekt_jabberwocky;
+package projektjabberwocky;
 
-public class Jabberwocky_Model {
+public class JabberwockyModel {
 	private Service service = new Service();
 	
 	public void myMethod() {
@@ -9,7 +9,7 @@ public class Jabberwocky_Model {
 	
 	//Um die Klasse zu testen, kann entfernt werden
 	public static void main (String[] args) {
-		Jabberwocky_Model model = new Jabberwocky_Model();
+		JabberwockyModel model = new JabberwockyModel();
 		model.myMethod();
 	}
 

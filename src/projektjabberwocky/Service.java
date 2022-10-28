@@ -1,4 +1,4 @@
-package projekt_jabberwocky;
+package projektjabberwocky;
 
 import fileReader.TextReader;
 
